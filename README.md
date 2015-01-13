@@ -22,7 +22,7 @@ Bite sized programming presentations
 - Refactoring
 
 ### Wednesday
-- classes
+- modeling with classes
 - stacks 
 - queues
 - linked lists
@@ -31,12 +31,12 @@ Bite sized programming presentations
 
 ### Thursday
 - private + public methods 
-- incorporating classes in your scripts
-- Modeling boards as nested arrays
-- extracting rows, columns, and diagonals from a 2D array
+- programming with objects
+- Modeling boards
+- Boards: rows, columns, and diagonals
 
 ### Friday
-- Sudoku planning
+- Sudoku primer
 
 ## Week 2:
 ### Monday
