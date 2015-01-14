@@ -12,18 +12,18 @@
 
   <!-- Core CSS -->
   <link rel="stylesheet" media="screen" href="core/deck.core.css">
-  <link rel="stylesheet" media="print" href="core/print.css">
 
-  <!-- CSS Extensions -->
-  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <!-- Extension CSS -->
   <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
   <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
   <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
 
   <!-- Themes -->
+  <link rel="stylesheet" media="screen" href="themes/style/reset.css">  
   <link rel="stylesheet" media="screen" href="themes/style/swiss.css">
   <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
 
+  <!-- Modernizer -->
   <script src="modernizr.custom.js"></script>
 
 </head>
@@ -32,30 +32,29 @@
 
     <!-- put slides here -->
     <section class="slide">
+      <!-- <img src='https://pbs.twimg.com/profile_images/378800000701114379/c2d4e7d706aec1b1207c40874c0d420d_400x400.png' id="logo"/> -->
+      <h1>Basic Git Workflow</h1>
+    </section>
+    <section class="slide">
+      <h1>Basic Git Workflow</h1>
+    </section>
+    <section class="slide">
       <h1>Basic Git Workflow</h1>
     </section>
 
     <!-- Status Extension-->
     <p class="deck-status" aria-role="status">
-      <span class="deck-status-current"></span>
-      /
-      <span class="deck-status-total"></span>
+      <span class="deck-status-current"></span> / <span class="deck-status-total"></span>
     </p>
-    <!-- GoToSlide Extension -->
-    <form action="." method="get" class="goto-form">
-      <label for="goto-slide">Go to slide:</label>
-      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
-      <datalist id="goto-datalist"></datalist>
-      <input type="submit" value="Go">
-    </form>
 
   </div>
 
+<!-- Core JS + JQuery -->
 <script src="jquery.min.js"></script>
 <script src="core/deck.core.js"></script>
 
+<!-- Extension JS -->
 <script src="extensions/menu/deck.menu.js"></script>
-<script src="extensions/goto/deck.goto.js"></script>
 <script src="extensions/status/deck.status.js"></script>
 <script src="extensions/scale/deck.scale.js"></script>
 
