@@ -8,21 +8,21 @@
   <title>Basic Git Workflow</title>
 
   <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
   <!-- Core CSS -->
   <link rel="stylesheet" media="screen" href="../../../../deck.js/core/deck.core.css">
 
   <!-- Extension CSS -->
   <link rel="stylesheet" media="screen" href="../../../../deck.js/extensions/menu/deck.menu.css">
-  <link rel="stylesheet" media="screen" href="../../../../deck.js/extensions/status/deck.status.css">
   <link rel="stylesheet" media="screen" href="../../../../deck.js/extensions/scale/deck.scale.css">
 
   <!-- Themes -->
   <link rel="stylesheet" media="screen" href="../../../../deck.js/themes/style/reset.css">  
   <link rel="stylesheet" media="screen" href="../../../../deck.js/themes/style/swiss.css">
+  <link rel="stylesheet" media="screen" href="./slides.css">
   <link rel="stylesheet" media="screen" href="../../../../deck.js/themes/transition/horizontal-slide.css">
-git 
+
   <!-- Modernizer -->
   <script src="../../../../deck.js/modernizr.custom.js"></script>
 
@@ -30,17 +30,80 @@ git
 <body>
   <div class="deck-container">
 
-    <!-- put slides here -->
     <section class="slide">
       <h1>Basic Git Workflow</h1>
     </section>
 
-    <!-- Status Extension-->
-    <p class="deck-status" aria-role="status">
-      <span class="deck-status-current"></span> / <span class="deck-status-total"></span>
-    </p>
+    <section class="slide">
+      <h2>Setup</h2>
+      <h3 class="slide">first time working on the repo?</h3>
+      <ul>
+        <li class="slide">
+          <code>git clone repository_url</code><br>
+          <small>- copies a remote github repository to your computer</small>
+        </li>
+        <li class="slide">
+          <code>git checkout -b branch_name</code><br>
+          <small>- adds a new branch to the repo, and gives it the name you specified</small>
+        </li>
+      </ul>
+    </section>
 
-  </div>
+    <section class="slide">
+      <h2>Setup</h2>
+      <h3 class="slide">additional work on the repo?</h3>
+      <ul>
+        <li class="slide">
+          <code>git checkout master</code><br>
+          <small>- moves you to the master branch of your repo</small><br>
+        </li>
+        <li class="slide">
+          <code>git pull origin master</code><br>
+          <small>- brings your local master branch up to date with github's</small><br>
+        </li>
+        <li class="slide">
+          <code>git checkout branch_name</code><br>
+          <small>- switches you to the specified branch</small><br>
+        </li>
+      </ul>  
+    </section>
+
+    <section class="slide">
+      <h2>Work</h2>
+      <ul>
+        <li class="slide">
+          <code>git add .</code><br>
+          <small>- "stages" all the files in your current working directory</small>
+        </li>
+        <li class="slide">
+          <code>git status</code><br>
+          <small>- lists all staged/unstaged changes you've made</small>
+        </li>
+        <li class="slide">
+          <code>git commit -m "a meaningful msg"</code><br>
+          <small>- saves all staged changes, along with a descriptive msg</small>
+        </li>
+        <li class="slide">
+          <p>Repeat until finished working. Commit your work often -- very often.</p> 
+        </li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Wrap Up</h2>
+      <ul>
+        <li class="slide">
+          <code>git push origin branch_name</code><br>
+          <small>- pushes your local changes to your online github repo</small>
+        </li>
+        <li class="slide">
+          <p>Create a pull request on github</p>
+          <small>- this allows folx to review and comment on your changes</small>
+        </li>
+      </ul>
+    </section>
+
+  </div> 
 
 <!-- Core JS + JQuery -->
 <script src="../../../../deck.js/jquery.min.js"></script>
@@ -48,7 +111,6 @@ git
 
 <!-- Extension JS -->
 <script src="../../../../deck.js/extensions/menu/deck.menu.js"></script>
-<script src="../../../../deck.js/extensions/status/deck.status.js"></script>
 <script src="../../../../deck.js/extensions/scale/deck.scale.js"></script>
 
 <script>
