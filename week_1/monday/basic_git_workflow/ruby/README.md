@@ -22,19 +22,28 @@
 		- saves all staged changes locally, making them forever a part of your git history
 	- git push origin branch_name
 		- updates your remote branch with all committed changes you have made locally
+	- subl . 
+		- opens everything in your current directory with sublime
+	- git help
+		- gives you a list of git commands and their functionality, in case you forget
 
 ## Your workflow:
 
 ### Setup
 
 #### Don't have a copy of the repo on your computer yet?
-- git clone repository_url
-- git checkout -b new_branch
+- in terminal, navigate to wherever you'd like to store the repo
+- run: git clone repository_url
+- cd into your new repo
+- run: git checkout -b new_branch
+- run: subl .
 
 #### Already have a copy?
-- git checkout master
-- git pull origin master
-- git checkout existing_branch ORRRR git checkout new_branch
+- in terminal, cd into your repo's folder 
+- run: git checkout master
+- run: git pull origin master
+- run: git checkout existing_branch ORRRR git checkout new_branch
+- run: subl .
 
 ### Work
 - add code, change code, etc.
