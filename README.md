@@ -10,7 +10,7 @@ Currently, for both streams, each concept has its own folder and is organized by
 
 1. a [deck.js](http://imakewebthings.com/deck.js/) html file to create slides 
 2. a README containing a written summary of the concept, and a link to the video
-3. an info.jsonId file containing a jsonId definition of the concept
+3. an info.jsonId file containing a [jsonId definition of the concept] (https://github.com/enspiral-dev-academy/types)
 4. a template_code file, containing any necessary code demos for the screencast
 5. any other media (images, etc.)
 
