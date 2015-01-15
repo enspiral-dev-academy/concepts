@@ -5,3 +5,4 @@ li { padding: 0px; margin-bottom: 10px; }
 ul { margin-bottom: 0.5em; }
 p,small { font-weight: 400;}
 p { font-size: 90%; margin-bottom: 0; }
+code { font-size: 90%; }

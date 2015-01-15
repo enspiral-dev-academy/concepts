@@ -46,12 +46,10 @@
 - run: subl .
 
 ### Work
-- add code, change code, etc.
-- git status
+- in sublime, add code, change code, etc.
 - git add . 
-- git status
 - git commit -m "a concise msg explaining any changes made"
-- repeat and repeat until finished working
+- repeat until finished working. use git status to verify that changes and additions actually happen.
 
 ### Wrap Up
 - git push origin branch_name
