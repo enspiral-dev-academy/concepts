@@ -13,3 +13,7 @@ Each concept has its own folder and is organized by ?. These folders will have a
 3. an info.jsonId file containing a [jsonId definition of the concept] (https://github.com/enspiral-dev-academy/types)
 4. a template_code file, containing any necessary code demos for the screencast
 5. any other media (images, etc.)
+
+## organization of concepts 
+
+- Git + Github 
