@@ -16,4 +16,31 @@ Each concept has its own folder and is organized by ?. These folders will have a
 
 ## organization of concepts 
 
+- Code
+  - Refactoring 
+  - Readability
+- Terminal
+  - Navigation
+  - UI
 - Git + Github 
+  - Basic Git Workflow
+- Methods
+  - Method basics 
+  - Recursion
+- Enumerables
+  - Arrays
+    - Array Basics
+    - Nested Arrays
+    - Modeling a board
+  - Hashes 
+    - Hash Basics
+    - Nested Hashes
+  - Methods
+    - loops and iteration
+    - sorting + selection
+- OOP
+  - classes
+  - objects
+  - private v. public
+  - inheritance
+  - modules
