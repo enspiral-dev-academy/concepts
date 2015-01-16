@@ -38,9 +38,11 @@ Each concept has its own folder and is organized by ?. These folders will have a
   - Methods
     - loops and iteration
     - sorting + selection
-- OOP
+- Objects
   - classes
   - objects
   - private v. public
   - inheritance
   - modules
+- Other/Unsorted
+  - Regular Expressions
