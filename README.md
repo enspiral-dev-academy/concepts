@@ -22,9 +22,11 @@ Each concept has its own folder and is organized by ?. These folders will have a
 - Terminal
   - Navigation
   - UI
+  - ARGV
 - Workflow
   - Basic Git Workflow
   - Advanced Git Workflow
+  - Kanban Board
   - Agile 
   - TDD
 - Methods
@@ -47,14 +49,16 @@ Each concept has its own folder and is organized by ?. These folders will have a
   - private v. public
   - inheritance
   - modules
+  - coupling
   - OOP / SOLID principles
 - Databases
   - ORM
     - basics
     - associations
     - migrations
-- Not yet sorted / ??
+- Not yet sorted / ¯\_(ツ)_/¯ / heeeelppp
   - Regular Expressions
   - testing stuff
   - Dev tools
+  - MVC
   
