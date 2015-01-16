@@ -19,10 +19,12 @@ Each concept has its own folder and is organized by ?. These folders will have a
 - Code
   - Refactoring 
   - Readability
-- Terminal
-  - Navigation
-  - UI
-  - ARGV
+- Dev tools
+  - Terminal
+    - Navigation
+    - UI
+    - ARGV
+   	- Useful commands
 - Workflow
   - Basic Git Workflow
   - Advanced Git Workflow
@@ -45,21 +47,21 @@ Each concept has its own folder and is organized by ?. These folders will have a
     - sorting + selection
 - Objects
   - classes
-  - objects
+  - object basics
   - private v. public
   - inheritance
   - modules
   - coupling
   - OOP / SOLID principles
+- Testing
+  - introduction
 - Databases
   - ORM
     - basics
     - associations
     - migrations
-- Not yet sorted / ¯\_(ツ)_/¯ / heeeelppp
-  - Regular Expressions
-  - testing stuff
-  - Dev tools
+- Regular Expressions
+- Design Patterns
   - MVC
   
 
